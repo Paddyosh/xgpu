@@ -34,6 +34,9 @@ echo "STEP 8 of 10: Replaced ETH address"
 sudo pip install -U -r requirements.txt > /dev/null 2>&1
 echo "STEP 9 of 10: Installed Python Requirements"
 
+sudo apt-get install pciutils
+echo "STEP 9.5 of 10: get number of GPUs"
+
 echo "STEP 10 of 10: Starting Miner & GPU"
 
 # Start the Python miner
