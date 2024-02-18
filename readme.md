@@ -70,7 +70,7 @@ For auto GPU use vast-autogpu.sh:
   sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/Paddyosh/xgpu/main/vast.sh && sudo chmod +x vast.sh && sudo ./vast.sh
   ```
 
-  For single GPU use vast.sh:
+  For 2 x GPU use vast.sh:
   ```
   sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/Paddyosh/xgpu/main/vast2.sh && sudo chmod +x vast2.sh && sudo ./vast2.sh
   ```
